@@ -35,7 +35,7 @@
         android:layout_height="wrap_content">
 
 
-        <info.hoang8f.widget.FButton
+        <Button
             android:id="@+id/btsignUp"
             android:text="@string/signUp"
             android:textColor="@android:color/white"
@@ -43,13 +43,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            app:buttonColor="@color/btsignup"
-            app:shadowColor="@android:color/black"
-            app:shadowEnabled="true"
-            app:shadowHeight="5dp"
-            app:cornerRadius="4dp"/>
+            />
 
-        <info.hoang8f.widget.FButton
+        <Button
             android:id="@+id/btsignIn"
             android:text="@string/signIn"
             android:textColor="@android:color/white"
@@ -57,11 +53,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            app:buttonColor="@color/btsignupaction"
-            app:shadowColor="@android:color/black"
-            app:shadowEnabled="true"
-            app:shadowHeight="5dp"
-            app:cornerRadius="4dp"/>
+            />
 
     </LinearLayout>
 

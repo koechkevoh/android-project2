@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.rengwuxian.materialedittext.MaterialEditText
+        <EditText
             android:id="@+id/edtPhone"
             android:hint="Phone Number"
             android:layout_width="match_parent"
@@ -32,7 +32,7 @@
             app:met_singleLineEllipsis="true"/>
 
 
-        <com.rengwuxian.materialedittext.MaterialEditText
+        <EditText
             android:id="@+id/edtPassword"
             android:hint="Password"
             android:layout_width="match_parent"
@@ -55,7 +55,7 @@
 
 
 
-    <info.hoang8f.widget.FButton
+    <Button
         android:id="@+id/btsignin"
         android:text="@string/signUp"
         android:textColor="@android:color/white"
@@ -65,11 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_margin="8dp"
-        app:buttonColor="@color/btsignupaction"
-        app:shadowColor="@android:color/black"
-        app:shadowEnabled="true"
-        app:shadowHeight="5dp"
-        app:cornerRadius="4dp"/>
+        />
 
 
 </RelativeLayout>

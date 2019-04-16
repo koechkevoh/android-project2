@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "420602569549",
+    "firebase_url": "https://hotel-c25b6.firebaseio.com",
+    "project_id": "hotel-c25b6",
+    "storage_bucket": "hotel-c25b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420602569549:android:fcfc891301220961",
+        "android_client_info": {
+          "package_name": "com.example.hotel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420602569549-35e0qm2e6q0mum5101otecq7hs7s9t52.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hotel",
+            "certificate_hash": "8e42cbc340a1b32fac05632954d916e9c935d9d3"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0sAe1xJSf-3BEJaHG4o9vbQC2jMTjci4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420602569549-pjj940ii310r3ab1vcnut534ahdiqd4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
